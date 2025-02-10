@@ -1,4 +1,4 @@
-# RAG Implementation with ChromaDB, Deepseek, Gradio, and Ollama
+# Simple RAG Implementation
 
 This repository contains an implementation of a Retrieval-Augmented Generation (RAG) system using the following stack:
 
@@ -19,7 +19,7 @@ Ensure you have Python 3.8+ installed, then clone this repository and install de
 ```bash
 # Clone the repository
 git clone [<your-repo-url>](https://github.com/satriahelmy/simple_rag_deepseek.git)
-cd <your-repo-directory>
+cd simple_rag_deepseek
 
 # Install dependencies
 pip install -r requirements.txt
@@ -27,17 +27,12 @@ pip install -r requirements.txt
 
 ## Running the Application
 
-1. Start the ChromaDB server (if running separately):
-```bash
-python -m chromadb
-```
-
-2. Run the RAG pipeline:
+1. Run the RAG pipeline:
 ```bash
 python app.py
 ```
 
-3. Open the Gradio interface in your browser (usually at `http://localhost:7860`).
+2. Open the Gradio interface in your browser (usually at `http://localhost:7860`).
 
 ## Configuration
 You can modify configuration settings in `config.py` (if applicable) to adjust parameters like:
@@ -55,21 +50,12 @@ You can modify configuration settings in `config.py` (if applicable) to adjust p
 ```
 📂 project-root
 │-- app.py               # Main application file
-│-- config.py            # Configuration settings (optional)
 │-- requirements.txt     # Required dependencies
-│-- embeddings/          # Stored embeddings (if applicable)
-│-- models/             # Model configurations
-│-- ui/                  # Gradio UI components
-│-- data/                # Sample dataset (if needed)
-```
 
 ## Future Enhancements
 - Integration with additional LLMs.
 - Optimization of retrieval strategies.
 - Fine-tuning Deepseek for domain-specific tasks.
-
-## License
-This project is licensed under [MIT License](LICENSE).
 
 ## Acknowledgements
 - [ChromaDB](https://github.com/chroma-core/chroma)
