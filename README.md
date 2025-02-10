@@ -51,6 +51,7 @@ You can modify configuration settings in `config.py` (if applicable) to adjust p
 📂 project-root
 │-- app.py               # Main application file
 │-- requirements.txt     # Required dependencies
+```
 
 ## Future Enhancements
 - Integration with additional LLMs.
