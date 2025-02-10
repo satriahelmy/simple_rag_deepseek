@@ -18,7 +18,7 @@ Ensure you have Python 3.8+ installed, then clone this repository and install de
 
 ```bash
 # Clone the repository
-git clone [<your-repo-url>](https://github.com/satriahelmy/simple_rag_deepseek.git)
+git clone https://github.com/satriahelmy/simple_rag_deepseek.git
 cd simple_rag_deepseek
 
 # Install dependencies
